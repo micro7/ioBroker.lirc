@@ -1,0 +1,58 @@
+{
+	"common": {
+		"name": "lirc",
+		"version": "0.0.1",
+		"news": {
+			"0.0.1": {
+				"en": "initial adapter",
+				"de": "Initiale Version"
+			}
+		},
+		"title": "lirc adapter",
+		"titleLang": {
+			"en": "lirc adapter",
+			"de": "lirc Adapter"
+		},
+		"desc": {
+			"en": "Send &amp; receive IR codes via lirc",
+			"de": "Sende &amp; empfange IR codes via lirc"
+		},
+		"authors": [
+			"Daniel Lenz <dev@daniellenz.eu>"
+		],
+		"docs": {
+			"en": "docs/de/admin.md",
+			"de": "docs/en/admin.md"
+		},
+		"platform": "Javascript/Node.js",
+		"mode": "daemon",
+		"icon": "lirc.png",
+		"materialize": true,
+		"enabled": true,
+		"extIcon": "https://raw.githubusercontent.com/micro7/ioBroker.lirc/master/admin/lirc.png",
+		"keywords": [
+			"lirc",
+			"vis",
+			"GUI",
+			"graphical",
+			"scada"
+		],
+		"readme": "README.md",
+		"loglevel": "info",
+		"type": "general",
+		"license": "MIT",
+		"messagebox": false,
+		"restartAdapters": [
+			"vis"
+		]
+	},
+	"native": {
+		"ip": "127.0.0.1",
+		"port": 8765,
+		"reconnect": "5000",
+		"devices": {}
+	},
+	"objects": [
+
+	]
+}

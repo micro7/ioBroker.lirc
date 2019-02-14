@@ -1,0 +1,43 @@
+{
+  "name": "iobroker.lirc",
+  "version": "0.0.1",
+  "description": "lirc client adapter",
+  "author": {
+    "name": "Daniel Lenz",
+    "email": "dev@daniellenz.eu"
+  },
+  "contributors": [
+    {
+	    "name": "Daniel Lenz",
+	    "email": "dev@daniellenz.eu"
+    }
+  ],
+  "homepage": "https://github.com/micro7/ioBroker.lirc",
+  "license": "MIT",
+  "keywords": [
+    "ioBroker",
+    "lirc",
+    "Smart Home",
+    "home automation"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/micro7/ioBroker.lirc"
+  },
+  "dependencies": {
+	  "lirc-client": "1.0.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "mocha": "^4.1.0",
+    "chai": "^4.1.2"
+  },
+  "main": "main.js",
+  "scripts": {
+    "test": "node node_modules/mocha/bin/mocha --exit"
+  },
+  "bugs": {
+    "url": "https://github.com/micro7/ioBroker.lirc/issues"
+  },
+  "readmeFilename": "README.md"
+}
